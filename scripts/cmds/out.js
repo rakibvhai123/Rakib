@@ -9,7 +9,7 @@ module.exports = {
 		author: "Sandy",
 		countDown: 5,
 		role: 2,
-		shortDescription: "তর হোডার গুরুপে না থাকলে আমার বাল ছিরে গেলো ।",
+		shortDescription: "bot leave the group",
 		longDescription: "",
 		category: "admin",
 		guide: {
@@ -25,6 +25,6 @@ module.exports = {
  } else {
  id = parseInt(args.join(" "));
  }
- return api.sendMessage('bot leave the group', id, () => api.removeUserFromGroup(api.getCurrentUserID(), id))
+ return api.sendMessage('তর হোডার গুরুপে না থাকলে আমার বাল ছিরে গেলো ।', id, () => api.removeUserFromGroup(api.getCurrentUserID(), id))
 		}
 	};
