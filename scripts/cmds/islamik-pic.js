@@ -8,7 +8,7 @@
     role: 0,
     shortDescription: "send you pic of islamik pic",
     longDescription: "",
-    category: "𝗝𝗢𝗬-𝗔𝗛𝗠𝗘𝗗",
+    category: "SAGOR",
     guide: "{pn}"
   },
 
