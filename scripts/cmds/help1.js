@@ -7,7 +7,7 @@ const doNotDelete = "[ 🐐 | 🇸 🇦 🇬 🇴 🇷  V2 ]";
 
 module.exports = {
 	config: {
-		name: "help ",
+		name: "help",
 		version: "1.17",
 		author: "NTKhang", // orginal author Kshitiz
 		countDown: 5,
@@ -127,4 +127,4 @@ function roleTextToString(roleText) {
 		default:
 			return "Unknown role";
 	}
-													       }
+	}
