@@ -1,4 +1,4 @@
- module.exports = {
+module.exports = {
   config: {
     name: "messi",
     aliases: ["lm10"],
@@ -67,7 +67,7 @@
 
 let img = link[Math.floor(Math.random()*link.length)]
 message.send({
-  body: '「 𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥\n𝗦𝗔𝗚𝗢𝗥」',attachment: await global.utils.getStreamFromURL(img)
+  body: '「 The SaGor has arrived🐐 」',attachment: await global.utils.getStreamFromURL(img)
 })
 }
      }
